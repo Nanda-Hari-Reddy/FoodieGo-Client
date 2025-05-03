@@ -16,7 +16,6 @@ const HeaderComponent = () =>
     const setTheme = context.setTheme
     const handleSearch = (e) => {
         e.preventDefault();
-        // Implement search functionality
         console.log('Searching for:', searchTerm);
       };
 
