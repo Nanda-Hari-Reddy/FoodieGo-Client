@@ -47,6 +47,7 @@ const AddressUpdateForm = ({isOpen, setIsOpen, address, setAddress, getAddresses
         getAddresses()
     },[isAddressUpdated])
 
+    
   return (
     <div>
       <AnimatePresence>
