@@ -1,4 +1,7 @@
 import { apiClient } from './BaseURL'
+
+
+// Foodiego Api Terminal
 export const authenticateUser = (token) => apiClient.get('/authenticate',
     {
         headers : { Authorization : token }
